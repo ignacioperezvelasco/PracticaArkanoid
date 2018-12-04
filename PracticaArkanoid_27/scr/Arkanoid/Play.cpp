@@ -10,3 +10,7 @@ Play::Play()
 Play::~Play()
 {
 }
+
+GameManager::escena update() 
+{
+}

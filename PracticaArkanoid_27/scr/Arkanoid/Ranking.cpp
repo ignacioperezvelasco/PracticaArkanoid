@@ -15,6 +15,6 @@ void Ranking::draw()
 {
 }
 
-void Ranking::update()
+GameManager::escena update() Ranking::update()
 {
 }

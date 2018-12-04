@@ -15,6 +15,6 @@ Menu::~Menu()
 void Menu::draw()
 {
 }
-void Menu::update()
+GameManager::escena Menu::update()
 {
 }

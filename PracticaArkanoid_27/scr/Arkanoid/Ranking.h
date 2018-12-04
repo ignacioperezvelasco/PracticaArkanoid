@@ -6,11 +6,12 @@
 class Ranking :
 	public Scene
 {
+private:
 	std::map<std::string,int> PlayersScore;
 public:
 	Ranking();
 	~Ranking();
 	void draw();
-	void update();
+	GameManager::escena update();
 };
 

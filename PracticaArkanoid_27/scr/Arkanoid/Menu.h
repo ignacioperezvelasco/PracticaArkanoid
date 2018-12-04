@@ -12,6 +12,6 @@ public:
 	~Menu();
 	
 	void draw();
-	void update();
+	GameManager::escena update();
 };
 

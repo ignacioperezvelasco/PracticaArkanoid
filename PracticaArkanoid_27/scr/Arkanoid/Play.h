@@ -11,6 +11,6 @@ public:
 	~Play();
 
 	void draw();
-	void update();
+	GameManager::escena update();
 };
 

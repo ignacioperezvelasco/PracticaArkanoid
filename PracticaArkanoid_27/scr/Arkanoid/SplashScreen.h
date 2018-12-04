@@ -1,5 +1,6 @@
 #pragma once
 #include "Scene.h"
+#include "GameManager.h"
 class SplashScreen :
 	public Scene
 {
@@ -9,9 +10,7 @@ public:
 	SplashScreen();
 	~SplashScreen();
 
-	void countDown();
-
 	void draw();
-	void update();
+	GameManager::escena update();
 };
 
